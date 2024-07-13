@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo1 {
+ width: 100px;
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    position: relative;
+    transform: translateY(-100%);
+    top: -20px
+}
+
+.usuario img {
+    position: relative;
+   width: 25px; 
+   margin-top: -10px;
+   margin-right: 300px;
+   transform: translateY(120%);
+    
+}
+
+.search-form {
+    width: 1350px; 
+    height: 20px; 
+    transform: scaleX(1.3) scaleY(2.5); 
+}
+
+body {
+   background-color: #141313;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.hero {
+    padding: 60px 0;
+    width: 90%;
+    margin: 2%;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+    color: #ffffff;
+    top: -200px;
+    font-size: 24px; 
+    line-height: 1.3; 
+}
+
+.hero::after {
+    content: "";
+    display: block;
+    width: 200%; 
+    height: 1px; 
+    background-color: #ffffff; 
+    position: absolute;
+    bottom: 50px; 
+    left: -25%; 
+}
+
+
+.hero h1 {
+    text-align: left;
+    font-family: 'montserrat', sans-serif;
+}
+
+.agregar {
+    position: relative;
+    text-align: center; /* Centra el contenido dentro del div */
+    margin-top: -250px; /* Mueve el div hacia abajo 20px (ajusta según sea necesario) */
+    margin-left: 1000px;
+}
+
+.agregar1 {
+    background-color: #FF7A00; 
+    color: white; /* Cambia el color del texto a blanco */
+    padding: 10px 50px; /* Ajusta el padding interior del botón para dar espacio */
+    border: none; /* Elimina el borde del botón */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    font-family: 'montserrat', sans-serif;
+    border-radius: 10px; 
+}
+
+nav {
+    text-align: right;
+    padding: 10px 15px 0 0;
+    position: relative;
+    z-index: 1;
+    top: -30px;
+    font-size: 45px;
+}
+
+.mesas {
+    position: relative;
+    display: inline-block; /* O cualquier otro valor de display que prefieras */
+}
+
+
+.mesa {
+    width: 100%; /* Ajusta el tamaño de la imagen según sea necesario */
+    margin-left: 0px; /* Mueve la imagen hacia la derecha */
+    margin-top: -140px; /* Mueve la imagen hacia abajo */
+    filter: brightness(50%);
+}
+
+
+
+.texto-sobre-imagen {
+    position: absolute;
+    top: 15%; /* Ajusta la posición vertical */
+    left: 45%; /* Ajusta la posición horizontal */
+    transform: translate(-50%, -50%); /* Centra el texto */
+    color: white; /* Color del texto */
+    padding: 10px;
+    font-size: 25px; /* Tamaño del texto */
+    text-align: center;
+    font-family: 'montserrat', sans-serif;
+}
+
+.texto2 {
+    position: absolute;
+    top: 30%; /* Ajusta la posición vertical */
+    left: 45%; /* Ajusta la posición horizontal */
+    transform: translate(-50%, -50%); /* Centra el texto */
+    color: #B9B9B9; /* Color del texto */
+    padding: 10px;
+    font-size: 25px; /* Tamaño del texto */
+    text-align: center;
+    font-family: 'montserrat', sans-serif;
+}
+
+
+.box {
+    width: 350px;
+    height: 200px;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-left: 50px; 
+    margin-top: 30px;
+}
+
+.btn-close {
+    background: none;
+    border: none;
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+    position: absolute;
+    top: 4px;
+    right: 8px;
+    z-index: 2;
+    margin-right: 320px;
+}
+
+.botones {
+    display: flex;
+    flex-direction: column; 
+    position: absolute;
+    top: 50px; 
+    left: 250px;
+    z-index: 2; 
+}
+
+.botones .btn-small1 {
+    background-color: #0094FF;
+    color: #333;
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-bottom: 10px; 
+    border-radius: 10px;
+    padding: 10px 20px; 
+}
+
+.botones .btn-small2 {
+    background-color: #FF7A00;
+    color: #333;
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-bottom: 10px; 
+    border-radius: 10px;
+    padding: 10px 20px; 
+}
